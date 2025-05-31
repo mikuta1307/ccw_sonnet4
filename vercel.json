@@ -1,0 +1,32 @@
+// vercel.json
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "nuxt.config.ts",
+      "use": "@nuxtjs/vercel-builder@latest"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)\\.(js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2)",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "headers": {
+        "X-Robots-Tag": "noindex, nofollow, noarchive, nosnippet"
+      }
+    }
+  ],
+  "env": {
+    "NUXT_PUBLIC_SITE_URL": "https://content-creators-workshop-demo.vercel.app"
+  },
+  "functions": {
+    "pages/api/**/*.js": {
+      "maxDuration": 10
+    }
+  }
+}
