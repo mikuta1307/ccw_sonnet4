@@ -1,0 +1,184 @@
+// content/data/articles-meta.json
+{
+  "articles": [
+    {
+      "id": "article-001",
+      "title": "デジタルマーケティング戦略ガイド",
+      "slug": "digital-marketing-strategy-guide",
+      "category": "long",
+      "wordCount": 8500,
+      "publishDate": "2024-03-15",
+      "genre": ["マーケティング", "ビジネス", "デジタル戦略"],
+      "clientType": "IT企業",
+      "description": "中小企業向けのデジタルマーケティング導入から実践まで、成功に導く包括的な戦略を解説",
+      "thumbnail": "digital-marketing-guide.jpg",
+      "featured": true,
+      "estimatedBudget": "15-30万円",
+      "productionDays": "10-14"
+    },
+    {
+      "id": "article-002",
+      "title": "リモートワーク効率化のコツ",
+      "slug": "remote-work-productivity-tips",
+      "category": "medium",
+      "wordCount": 3200,
+      "publishDate": "2024-03-10",
+      "genre": ["ビジネス", "ライフスタイル"],
+      "clientType": "コンサルティング",
+      "description": "在宅勤務での生産性を向上させる実践的なテクニックを具体例とともに紹介",
+      "thumbnail": "remote-work-tips.jpg",
+      "featured": true,
+      "estimatedBudget": "5-15万円",
+      "productionDays": "5-7"
+    },
+    {
+      "id": "article-003",
+      "title": "AI時代のコンテンツ制作",
+      "slug": "ai-content-creation-guide",
+      "category": "medium",
+      "wordCount": 4100,
+      "publishDate": "2024-03-05",
+      "genre": ["テクノロジー", "マーケティング"],
+      "clientType": "スタートアップ",
+      "description": "AIツールを活用した効率的なコンテンツ制作手法と注意点を詳しく解説",
+      "thumbnail": "ai-content-creation.jpg",
+      "featured": true,
+      "estimatedBudget": "5-15万円",
+      "productionDays": "5-7"
+    },
+    {
+      "id": "article-004",
+      "title": "SNS投稿で気をつけるべき5つのポイント",
+      "slug": "sns-posting-tips",
+      "category": "short",
+      "wordCount": 850,
+      "publishDate": "2024-03-20",
+      "genre": ["マーケティング", "ビジネス"],
+      "clientType": "マーケティング会社",
+      "description": "ビジネス用途でSNSを活用する際の基本的な注意点とベストプラクティス",
+      "thumbnail": "sns-posting-tips.jpg",
+      "featured": false,
+      "estimatedBudget": "2-5万円",
+      "productionDays": "2-3"
+    },
+    {
+      "id": "article-005",
+      "title": "メール配信の効果的な件名の作り方",
+      "slug": "email-subject-lines",
+      "category": "short",
+      "wordCount": 650,
+      "publishDate": "2024-03-18",
+      "genre": ["マーケティング"],
+      "clientType": "EC企業",
+      "description": "開封率を向上させるメール件名作成のコツと避けるべきNG例",
+      "thumbnail": "email-subject-lines.jpg",
+      "featured": false,
+      "estimatedBudget": "2-5万円",
+      "productionDays": "2-3"
+    },
+    {
+      "id": "article-006",
+      "title": "コンテンツマーケティングの始め方",
+      "slug": "content-marketing-getting-started",
+      "category": "medium",
+      "wordCount": 4100,
+      "publishDate": "2024-03-12",
+      "genre": ["マーケティング", "ビジネス"],
+      "clientType": "メディア企業",
+      "description": "企業がコンテンツマーケティングを導入する際のステップバイステップガイド",
+      "thumbnail": "content-marketing-guide.jpg",
+      "featured": false,
+      "estimatedBudget": "5-15万円",
+      "productionDays": "5-7"
+    },
+    {
+      "id": "article-007",
+      "title": "DX推進のためのデジタル変革ロードマップ",
+      "slug": "dx-transformation-roadmap",
+      "category": "long",
+      "wordCount": 7800,
+      "publishDate": "2024-02-25",
+      "genre": ["テクノロジー", "ビジネス"],
+      "clientType": "システム開発会社",
+      "description": "企業のデジタルトランスフォーメーション推進のための詳細なロードマップと実装戦略",
+      "thumbnail": "dx-roadmap.jpg",
+      "featured": false,
+      "estimatedBudget": "15-30万円",
+      "productionDays": "10-14"
+    },
+    {
+      "id": "article-008",
+      "title": "Instagram広告の基本設定",
+      "slug": "instagram-ads-setup",
+      "category": "short",
+      "wordCount": 750,
+      "publishDate": "2024-03-22",
+      "genre": ["マーケティング"],
+      "clientType": "広告代理店",
+      "description": "Instagram広告を始める際の基本的な設定方法と最適化のポイント",
+      "thumbnail": "instagram-ads.jpg",
+      "featured": false,
+      "estimatedBudget": "2-5万円",
+      "productionDays": "2-3"
+    },
+    {
+      "id": "article-009",
+      "title": "スタートアップのブランディング戦略",
+      "slug": "startup-branding-strategy",
+      "category": "long",
+      "wordCount": 6200,
+      "publishDate": "2024-02-28",
+      "genre": ["ビジネス", "マーケティング"],
+      "clientType": "ベンチャーキャピタル",
+      "description": "新興企業が市場で差別化を図るためのブランド構築手法と実践事例",
+      "thumbnail": "startup-branding.jpg",
+      "featured": false,
+      "estimatedBudget": "15-30万円",
+      "productionDays": "10-14"
+    }
+  ],
+  "categories": {
+    "short": {
+      "name": "ショート記事",
+      "description": "200-1,000文字の簡潔な記事",
+      "wordRange": "200-1,000文字",
+      "estimatedBudget": "2-5万円",
+      "productionDays": "2-3日",
+      "useCases": ["SNS投稿", "商品紹介", "ニュース記事", "メルマガ"]
+    },
+    "medium": {
+      "name": "ミディアム記事", 
+      "description": "1,000-5,000文字の詳細な記事",
+      "wordRange": "1,000-5,000文字",
+      "estimatedBudget": "5-15万円",
+      "productionDays": "5-7日",
+      "useCases": ["ブログ記事", "コラム", "インタビュー", "オウンドメディア"]
+    },
+    "long": {
+      "name": "ロング記事",
+      "description": "5,000文字以上の包括的な記事",
+      "wordRange": "5,000文字以上",
+      "estimatedBudget": "15-30万円", 
+      "productionDays": "10-14日",
+      "useCases": ["特集記事", "ホワイトペーパー", "ガイド", "企業レポート"]
+    }
+  },
+  "genres": {
+    "マーケティング": {
+      "color": "#f59e0b",
+      "description": "デジタル広告、SNS運用、ブランディング"
+    },
+    "ビジネス": {
+      "color": "#ef4444", 
+      "description": "経営戦略、人事、財務、組織運営"
+    },
+    "テクノロジー": {
+      "color": "#6366f1",
+      "description": "IT、AI、DX、システム開発"
+    },
+    "ライフスタイル": {
+      "color": "#ec4899",
+      "description": "健康、美容、ライフハック、働き方"
+    }
+  }
+}

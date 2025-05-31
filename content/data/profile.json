@@ -1,0 +1,180 @@
+// content/data/profile.json
+{
+  "profile": {
+    "name": "田中 太郎",
+    "nameEn": "Taro Tanaka",
+    "title": "Content Creator & Digital Writer",
+    "subtitle": "フリーランスライター",
+    "bio": "デジタルマーケティングとビジネスコンテンツを専門とするフリーランスライター。5年以上の経験を活かし、企業のブランドストーリーから技術解説まで、読者の心を動かすコンテンツを制作します。",
+    "location": "東京, 日本",
+    "experience": "5年+",
+    "totalArticles": "200記事+",
+    "email": "demo@content-creators-workshop.com",
+    "isDemo": true
+  },
+  "skills": {
+    "writing": [
+      {
+        "name": "SEOライティング",
+        "level": 95,
+        "description": "検索エンジン最適化を意識したコンテンツ制作"
+      },
+      {
+        "name": "コピーライティング", 
+        "level": 90,
+        "description": "売上につながる訴求力の高い文章作成"
+      },
+      {
+        "name": "テクニカルライティング",
+        "level": 85,
+        "description": "技術文書や専門的な内容の分かりやすい解説"
+      },
+      {
+        "name": "ブログ記事",
+        "level": 95,
+        "description": "読者に価値を提供するブログコンテンツ"
+      },
+      {
+        "name": "プレスリリース",
+        "level": 80,
+        "description": "企業の発表を効果的に伝える文書作成"
+      }
+    ],
+    "technical": [
+      {
+        "name": "WordPress",
+        "level": 4,
+        "description": "CMS運用・カスタマイズ"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": 3,
+        "description": "基本的なマークアップ・スタイリング"
+      },
+      {
+        "name": "Google Analytics",
+        "level": 5,
+        "description": "Webサイト分析・レポート作成"
+      },
+      {
+        "name": "SEOツール",
+        "level": 5,
+        "description": "キーワード調査・競合分析"
+      },
+      {
+        "name": "GitHub",
+        "level": 3,
+        "description": "バージョン管理・ドキュメント管理"
+      }
+    ]
+  },
+  "specialties": [
+    {
+      "name": "マーケティング",
+      "color": "#f59e0b",
+      "description": "デジタル広告、SNS運用、ブランディング戦略"
+    },
+    {
+      "name": "ビジネス",
+      "color": "#ef4444",
+      "description": "経営戦略、人事制度、組織運営"
+    },
+    {
+      "name": "テクノロジー",
+      "color": "#6366f1", 
+      "description": "IT、AI、DX、システム開発"
+    },
+    {
+      "name": "ライフスタイル",
+      "color": "#ec4899",
+      "description": "健康、美容、働き方改革"
+    }
+  ],
+  "industries": [
+    {
+      "name": "IT・テック",
+      "articles": 45,
+      "description": "ソフトウェア、AI、Web制作分野での執筆実績"
+    },
+    {
+      "name": "マーケティング",
+      "articles": 38,
+      "description": "デジタル広告、SNS運用に関する記事制作"
+    },
+    {
+      "name": "ビジネス",
+      "articles": 32,
+      "description": "経営戦略、人事、財務分野の専門記事"
+    },
+    {
+      "name": "ライフスタイル",
+      "articles": 25,
+      "description": "健康、美容、ライフハック関連のコンテンツ"
+    }
+  ],
+  "workProcess": [
+    {
+      "step": 1,
+      "title": "ヒアリング",
+      "description": "ご要望や目的、ターゲット読者について詳しくお伺いします",
+      "duration": "1-2日"
+    },
+    {
+      "step": 2,
+      "title": "企画・構成",
+      "description": "記事の構成案を作成し、方向性をすり合わせます", 
+      "duration": "2-3日"
+    },
+    {
+      "step": 3,
+      "title": "執筆・制作",
+      "description": "構成に沿って記事を執筆し、SEO対策も実施します",
+      "duration": "3-10日"
+    },
+    {
+      "step": 4,
+      "title": "納品・修正",
+      "description": "記事を納品し、必要に応じて修正対応いたします",
+      "duration": "1-2日"
+    }
+  ],
+  "timeline": [
+    {
+      "period": "2019年 - 現在",
+      "title": "フリーランスライター",
+      "company": "独立・個人事業",
+      "description": "様々な企業のコンテンツマーケティングを支援。月間50記事以上の制作実績。"
+    },
+    {
+      "period": "2017年 - 2019年",
+      "title": "コンテンツマネージャー", 
+      "company": "株式会社デジタルソリューションズ",
+      "description": "Webメディアの編集長として、チーム管理とコンテンツ戦略を担当。"
+    },
+    {
+      "period": "2015年 - 2017年",
+      "title": "マーケティング担当",
+      "company": "スタートアップ企業",
+      "description": "デジタルマーケティング全般を担当。ブログ運営で月間PV100万を達成。"
+    },
+    {
+      "period": "2011年 - 2015年",
+      "title": "文学部卒業",
+      "company": "私立大学",
+      "description": "日本文学専攻。在学中からWebライティングのアルバイトを開始。"
+    }
+  ],
+  "social": {
+    "github": "https://github.com/demo-account",
+    "linkedin": "https://linkedin.com/in/demo-account", 
+    "twitter": "https://twitter.com/demo-account",
+    "email": "demo@content-creators-workshop.com"
+  },
+  "contact": {
+    "responseTime": "24時間以内",
+    "workingHours": "平日 9:00-18:00",
+    "emergencySupport": "24時間対応可能",
+    "preferredContact": "メール",
+    "languages": ["日本語", "English"]
+  }
+}
