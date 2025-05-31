@@ -143,6 +143,12 @@ content-creators-workshop/
 - Markdownレンダリング
 - 記事メタ情報表示
 - 関連記事の提案
+- 5記事の個別URL対応:
+  - `/article/5-minute-stretch-routine`
+  - `/article/digital-marketing-strategy-guide`
+  - `/article/home-cafe-recipes`
+  - `/article/sns-marketing-tips`
+  - `/article/spring-room-makeover`
 
 ### **その他のページ**
 - **About**: プロフィールと経歴
@@ -178,6 +184,20 @@ thumbnail: "/images/thumbnails/article.jpg"
 Markdownで記述された記事本文...
 ```
 
+### **記事カテゴリー別整理（将来対応）**
+- `content/articles/short/` - ショート記事（200-1,000文字）
+- `content/articles/medium/` - ミディアム記事（1,000-5,000文字）
+- `content/articles/long/` - ロング記事（5,000文字以上）
+
+### **現在の記事構成**
+- **総記事数**: 5記事（すべて `content/articles/` 直下に配置）
+- **記事ファイル**:
+  1. `5-minute-stretch-routine.md` - ストレッチ記事
+  2. `digital-marketing-strategy-guide.md` - デジタルマーケティング記事
+  3. `home-cafe-recipes.md` - おうちカフェ記事
+  4. `sns-marketing-tips.md` - SNSマーケティング記事
+  5. `spring-room-makeover.md` - 春の模様替え記事
+
 ### **自動化された機能**
 - 記事数の自動集計
 - ジャンル数の自動カウント
@@ -206,6 +226,8 @@ npm run generate
 
 ## 📊 今後の改善点
 
+- **記事カテゴリー整理**: カテゴリー別フォルダへの記事移動
+- **プラグイン追加**: 機能拡張のためのプラグイン開発
 - **コンテンツ管理**: 管理画面の追加によるノンコーダー対応
 - **SEO強化**: サイトマップ、構造化データの追加
 - **パフォーマンス最適化**: 画像最適化、キャッシュ戦略の改善
@@ -213,6 +235,7 @@ npm run generate
 - **多言語対応**: i18nの実装
 - **ダークモード**: テーマ切り替え機能の追加
 - **検索機能**: 記事検索とフィルタリングの強化
+- **画像ギャラリー**: サムネイル画像の追加とギャラリー機能
 
 ## 📈 技術的な学習ポイント
 
@@ -222,6 +245,8 @@ npm run generate
 - **レスポンシブデザイン**: モバイルファーストアプローチ
 - **Vercel**: モダンなJamstackデプロイメント
 - **Git**: バージョン管理とコラボレーション
+- **プロジェクト構造設計**: スケーラブルなフォルダ構成
+- **静的サイト生成**: Nuxt 3のSSG機能活用
 
 ## 📜 ライセンス
 
@@ -236,9 +261,9 @@ npm run generate
 
 ## 👨‍💻 作者
 
-[mikuta1307]
+[あなたのGitHubユーザー名]
 
-デモサイト: https://ccw_sonnet4.vercel.app
+デモサイト: https://content-creators-workshop.vercel.app
 
 ---
 
