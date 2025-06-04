@@ -7,7 +7,7 @@ genre: ["ライフスタイル", "エンターテイメント"]
 clientType: "メディア"
 publishDate: "2024-06-04"
 slug: "solo-katsudo-joshi-susume-video-guide"
-thumbnail: "/images/thumbnails/solo-katsudo-video-guide.jpg"
+thumbnail: ""
 ---
 
 # ソロ活女子のススメ動画から分かる一人時間の楽しみ方完全ガイド
