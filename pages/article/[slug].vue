@@ -616,4 +616,25 @@ if (error.value) {
  position: relative;
  overflow: hidden;
 }
+
+/* ヘッダー分のオフセットを追加 */
+:deep(.prose h1),
+:deep(.prose h2),
+:deep(.prose h3),
+:deep(.prose h4),
+:deep(.prose h5),
+:deep(.prose h6) {
+  scroll-margin-top: 120px; /* ヘッダー高さ + 余白 */
+}
+
+/* 見出しにIDが自動付与される場合のターゲット調整 */
+:deep(.prose [id]) {
+  scroll-margin-top: 120px;
+}
+
+/* より確実な方法として、すべてのアンカーターゲットに適用 */
+:target {
+  scroll-margin-top: 120px;
+}
+
 </style>
