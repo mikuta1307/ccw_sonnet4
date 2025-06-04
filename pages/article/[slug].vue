@@ -624,7 +624,7 @@ if (error.value) {
 :deep(.prose h4),
 :deep(.prose h5),
 :deep(.prose h6) {
-  scroll-margin-top: 120px; /* ヘッダー高さ + 余白 */
+  scroll-margin-top: 100px; /* ヘッダー高さ + 余白 */
 }
 
 /* 見出しにIDが自動付与される場合のターゲット調整 */
