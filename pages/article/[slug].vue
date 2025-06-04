@@ -629,7 +629,7 @@ if (error.value) {
 
 /* 見出しにIDが自動付与される場合のターゲット調整 */
 :deep(.prose [id]) {
-  scroll-margin-top: 120px;
+  scroll-margin-top: 100px;
 }
 
 /* より確実な方法として、すべてのアンカーターゲットに適用 */
