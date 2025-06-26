@@ -1,11 +1,11 @@
-# static/robots.txt
-# Demo Site - No indexing allowed
-User-agent: *
-Disallow: /
-
-# This is a demonstration portfolio site
-# Crawling and indexing are not permitted
-# これはデモ用ポートフォリオサイトのため
-# クローリング・インデックスを禁止しています
-
-Sitemap:
+## static/robots.txt
+## Demo Site - No indexing allowed
+#User-agent: *
+#Disallow: /
+#
+## This is a demonstration portfolio site
+## Crawling and indexing are not permitted
+## これはデモ用ポートフォリオサイトのため
+## クローリング・インデックスを禁止しています
+#
+#Sitemap:
