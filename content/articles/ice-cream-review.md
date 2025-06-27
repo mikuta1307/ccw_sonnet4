@@ -6,7 +6,7 @@ wordCount: 5256
 genre: ["健康", "栄養", "ライフスタイル", "食品"]
 clientType: "メディア"
 publishDate: "2025-06-27"
-slug: "ice-cream-nutrition-guide"
+slug: "ice-cream-review"
 thumbnail: "/images/thumbnails/ice-cream-health-guide.jpg"
 ---
 
